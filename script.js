@@ -1,9 +1,4 @@
-<script>
-        function myFunction() {
-                text.style.display = "block"
+function myFunction() {
+        text.style.display = "block"
                 }
                 
-       
-
-            
-</script>
