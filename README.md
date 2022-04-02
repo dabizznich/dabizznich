@@ -1,4 +1,8 @@
-### Hi there 👋
+# Welcome to my Landing Page
+A personal website used to link to various projects.
+
+# Author
+Kyle Bichich
 
 <!--
 **dabizznich/dabizznich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
