@@ -9,6 +9,16 @@
 
 </head>
 <body style="background-color:violet">
+<SCRIPT>
+function ShowAndHide() {
+    var x = document.getElementById('SectionName');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</SCRIPT>
     <h1>Hello! You have found my Landing Page</h1>
     
 
@@ -17,12 +27,8 @@
     <p>Enjoy the Journey!</p>
     <img src="/resources/train_brigde.jpg" alt="Train Bridge" style="width:50%">
     <p></p>
-    <input type="button" HTMLInputElement.onclick=myFunction() value="The Journey">
+    <button onclick="ShowAndHide()">The Journey</button>
+    <DIV ID="SectionName" STYLE="display:none"><p><a href="https://www.roppers.org/">My journey started here.</a></p></DIV>
     
-    
-    <p id="text" style="display:none"><a href="https://www.roppers.org/">My journey started here.</a></p>
-    
-    
-    <script src="script.js"></script>
 </body>
 </html>
